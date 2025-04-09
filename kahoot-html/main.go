@@ -11,7 +11,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Fprintln(os.Stderr, "Usage: html <game pin> <nickname>")
+		fmt.Fprintln(os.Stderr, "Usage: html <7562224> <tsclassissh!>")
 		os.Exit(1)
 	}
 
